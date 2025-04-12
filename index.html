@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhannad's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">Muhannad's Portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li> 
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="particles" id="particles-js"></div>
+        <div class="hero-content">
+            <div class="profile-img">
+                <img src="assets/profile.jpg" alt="Your Name">
+            </div>
+            <h1 class="typing-text">Hi, I'm <span class="highlight" data-text="Your Name">Muhannad Muhammad Asif</span>
+            </h1>
+            <p class="fade-in">Graphic Designer & Animator</p>
+            <div class="tech-stack fade-in">
+                <img src="assets/blenderLogo.png" alt="Blender-image">
+                <img src="assets/capcutLogo.png" alt="capcut-image">
+                <img src="assets/IllustratorLogo.png" alt="Allustrator-image">
+            </div>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="assets/about.png" alt="My Workspace">
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate Designer with expertise in creating animation and editing videos & photos. I
+                        love turning ideas into reality through my skills.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill">
+                            <span>Blender</span>
+                            <div class="progress-bar">
+                                <div class="progress progress-1"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Illustrator</span>
+                            <div class="progress-bar">
+                                <div class="progress progress-2"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>CapCut</span>
+                            <div class="progress-bar">
+                                <div class="progress progress-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="assets/project1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>A banner for fashion week sale.</p>
+                    <a href="#" class="btn project-detail">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/project2.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Project 2</h3>
+                    <p>A banner for fashion week sale.</p>
+                    <a href="#" class="btn project-detail">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/project3.jpg" alt="Project 3">
+                <div class="project-info">
+                    <h3>Project 3</h3>
+                    <p>A poster for advertisement.</p>
+                    <a href="#" class="btn project-detail">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn primary contact-btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@djxsoulgaming" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.google.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/muhannad_asif?igsh=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-color: rgb(15, 8, 68);">
+        <div style="color: white; text-align: center; padding: 5px 0px;">
+            &copy; Copy Right All Right Reserved
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
